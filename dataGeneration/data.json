@@ -1,0 +1,2630 @@
+{
+    "data": [
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "0",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "10",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "0",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "20",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "10",
+                "theta": "30",
+                "vector": [
+                    "0",
+                    "0",
+                    "1"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": [
+                "inf",
+                "inf",
+                "inf",
+                "inf",
+                "inf"
+            ]
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "20",
+                "vector": [
+                    "1",
+                    "0",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "20",
+                "theta": "30",
+                "vector": [
+                    "1",
+                    "1",
+                    "3"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "0",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "10",
+                "vector": [
+                    "1",
+                    "0",
+                    "2"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "20",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "0",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "0",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "0"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        },
+        {
+            "start": [
+                "1",
+                "1",
+                "1"
+            ],
+            "trajectory": {
+                "phi": "30",
+                "theta": "30",
+                "vector": [
+                    "3",
+                    "2",
+                    "6"
+                ]
+            },
+            "limit": "",
+            "depth": "5",
+            "del_seq_known": [],
+            "del_seq_unknown": []
+        }
+    ]
+}
