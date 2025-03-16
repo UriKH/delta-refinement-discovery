@@ -3,3 +3,5 @@
 /__pycache__
 /dataGeneration/__pycache__/
 /dump/visual/__pycache/
+*.json
+*.pyc

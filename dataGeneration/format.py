@@ -28,6 +28,7 @@ def stringfy(data):
                 data = stringfy(data[i])
         return data
 
+
 def serialize_value(value):
     """Serialize a value to a JSON-compatible format."""
     if isinstance(value, dict):
@@ -71,14 +72,14 @@ def deserialize_value(value):
         return value
 
 
-def to_json(data: dict):
-    with open('data.json', 'w') as file:
+def to_json(data: dict, file_name: str = 'data'):
+    with open(f'{file_name}.json', 'w') as file:
         json.dump(serialize_value(data), file, indent=4)
 
 
-def from_json():
+def from_json(file_name: str = 'data'):
     if os.path.exists('data.json'):
-        with open('data.json', 'r') as file:
+        with open(f'{file_name}.json', 'r') as file:
             data = json.load(file)
         return deserialize_value(data['data'])
     return None
