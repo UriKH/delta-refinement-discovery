@@ -1,7 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
+from typing import Tuple, Dict, List, Optional
+
 matplotlib.use('TkAgg')  # Use interactive backend like TkAgg
+
+DEFAULT_GRAPH_COLOUR = 'blue'
 
 
 def normalize_vector(v):
@@ -9,7 +13,7 @@ def normalize_vector(v):
     return v / norm if norm != 0 else v
 
 
-def plot_vectors(vectors, start_points=None):
+def plot_3d_vectors(vectors, start_points=None):
     def plot_vectors_helper(ax, vectors, start_points=None, show_vectors=True, show_tips=True, normalize=False, title=""):
         # Convert to numpy array for float handling
         vectors = np.array(vectors, dtype=float)
@@ -26,7 +30,7 @@ def plot_vectors(vectors, start_points=None):
 
         # Plot vector tips
         if show_tips:
-            ax.scatter(x, y, z, color='red', label=f'Trajectory {"direction" if normalize else "step"}')
+            ax.scatter(x, y, z, color='red')
 
             # Plot vectors from the origin
             if show_vectors:
@@ -58,6 +62,7 @@ def plot_vectors(vectors, start_points=None):
 
     plt.tight_layout()
     plt.show()
+
 
 def convert_vectors_to_int(vectors):
     converted = [(int(x), int(y), int(z)) for x, y, z in vectors]
@@ -154,6 +159,97 @@ def snip_value_vs_trajectory(project=False):
 
 # snip_value_vs_trajectory()
 
+
+def unpack_2d_graph(data: List[Tuple[List[Tuple[float, float]], str, Optional[str]]]):
+    if len(data[0]) == 3:
+        return [((x, y), description, color) for coords, description, color in data for x, y in coords]
+    return [((x, y), description, DEFAULT_GRAPH_COLOUR) for coords, description in data for x, y in coords]
+
+
+def snip_2d_graph(data: List[Tuple[List[Tuple[float, float]] | Tuple[List[float], List[float]], str, Optional[str]]],
+                  title: str = None,
+                  x_name: str = None,
+                  y_name: str = None,
+                  scatter_plot: bool = True,
+                  show: bool = True,
+                  save: bool = False,
+                  alpha: float = 0.7):
+    if not hasattr(snip_2d_graph, "counter"):
+        snip_2d_graph.counter = 0
+    snip_2d_graph.counter += 1
+
+    if len(data[0]) == 1:
+        data = unpack_2d_graph(data)
+    if len(data[0]) == 3:
+        for line, description, color in data:
+            plt.plot(line[0], line[1],
+                     marker='o',
+                     linestyle=None if scatter_plot else '-',
+                     color=color,
+                     label=description,
+                     alpha=alpha)
+    else:
+        for line, description in data:
+            plt.plot(line[0], line[1],
+                     marker='o',
+                     linestyle=None if scatter_plot else '-',
+                     color=DEFAULT_GRAPH_COLOUR,
+                     label=description,
+                     alpha=alpha)
+
+    # Labels and Title
+    if x_name:
+        plt.xlabel(x_name)
+    if y_name:
+        plt.ylabel(y_name)
+    if title:
+        plt.title(title)
+    plt.legend()
+    if show:
+        plt.show()
+    if save:
+        plt.savefig(f'graph_{title if title else snip_2d_graph.counter}.jpg')
+
+def snip_2d_compare(formatted, start, trajectory, data_label_a, data_label_b, diff=False, only_diff=False, alpha=0.7):
+    def filter_inf(lst):
+        filtered = ([], [])
+        for x, y in enumerate(lst):
+            if str(y) in ('inf', '+inf', '-inf'):
+                continue
+
+            y = float(y)
+            filtered[0].append(x + 1)
+            filtered[1].append(y)
+        return filtered
+
+    def calc_diff(a, b):
+        diff = ([], [])
+
+        for i_a, x_a in enumerate(a[0]):
+            for i_b, x_b in enumerate(b[0]):
+                if x_a == x_b:
+                    diff[0].append(i_a)
+                    diff[1].append(b[1][i_b] - b[1][i_a])
+        return diff
+
+    pcf_graph = filter_inf(formatted[(*start, *trajectory)][data_label_a])
+    cmf_graph = filter_inf(formatted[(*start, *trajectory)][data_label_b])
+
+    if diff and not only_diff:
+        snip_2d_graph([
+            (pcf_graph, data_label_a, 'red'),
+            (cmf_graph, data_label_b, 'blue'),
+            (calc_diff(pcf_graph, cmf_graph), 'diff', 'green')
+        ], alpha=alpha)
+    elif only_diff:
+        snip_2d_graph([
+            (calc_diff(pcf_graph, cmf_graph), 'diff', 'blue')
+        ], alpha=alpha)
+    else:
+        snip_2d_graph([
+            (pcf_graph, data_label_a, 'red'),
+            (cmf_graph, data_label_b, 'blue'),
+        ], alpha=alpha)
 
 """
     Checks:

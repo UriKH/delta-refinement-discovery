@@ -3,7 +3,7 @@ import mpmath
 import os
 
 
-def stringfy(data):
+def stringify(data):
     if data is None:
         return ''
     if not isinstance(data, (list, dict)):
@@ -16,7 +16,7 @@ def stringfy(data):
             if isinstance(v, (int, float)):
                 data[k] = str(v)
             else:
-                data = stringfy(data[k])
+                data = stringify(data[k])
         return data
     if isinstance(data, list):
         for i, v in enumerate(data):
@@ -25,7 +25,7 @@ def stringfy(data):
             if isinstance(v, (int, float)):
                 data[i] = str(v)
             else:
-                data = stringfy(data[i])
+                data = stringify(data[i])
         return data
 
 
@@ -65,11 +65,11 @@ def deserialize_value(value):
         if value == '-inf':
             return mpmath.ninf
         try:
+            if '.' in value:
+                return float(value)
             return int(value)
-            return float(value)
         except:
-            pass
-        return value
+            return value
 
 
 def to_json(data: dict, file_name: str = 'data'):
@@ -78,8 +78,19 @@ def to_json(data: dict, file_name: str = 'data'):
 
 
 def from_json(file_name: str = 'data'):
-    if os.path.exists('data.json'):
+    if os.path.exists(f'{file_name}.json'):
         with open(f'{file_name}.json', 'r') as file:
             data = json.load(file)
         return deserialize_value(data['data'])
     return None
+
+
+def unpack_json(json_data):
+    formatted = {}
+
+    for d in json_data:
+        key = (*d['start'], *d['trajectory'])
+        del d['start']
+        del d['trajectory']
+        formatted[key] = d
+    return formatted

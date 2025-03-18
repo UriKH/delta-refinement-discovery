@@ -1,7 +1,7 @@
 from cmfCreator import piCMF, x0, x1, y0
 import sympy as sp
 from typing import Dict
-from format import *
+from dataGeneration.format import *
 from tqdm import tqdm
 
 
@@ -23,7 +23,7 @@ def cubic_space(
         cube_factor: float = 1,
         cube_size: float = 1):
     steps = [start + i * cube_factor for i in range(int(cube_size / cube_factor) + 1)]
-    starting_points = [(x+shift_x, y+shift_y, z+shift_z) for x in steps for y in steps for z in steps]
+    starting_points = [(x+shift_x, y+shift_y, z+shift_z) for x in steps for y in steps for z in steps if (x, y, z) != (0, 0, 0)]
     return starting_points
 
 
@@ -94,7 +94,7 @@ def generate_delta_sequence(generation_data, cmf_deltas=True, pcf_deltas=False):
     """
     for i, gen_data in tqdm(enumerate(generation_data), desc="calculating delta sequences", total=len(generation_data)):
         start = create_start_vector(gen_data['start'])
-        trajectory_vec = gen_data['trajectory']
+        trajectory = {x0: gen_data['trajectory'][0], x1: gen_data['trajectory'][1], y0: gen_data['trajectory'][2]}
 
         deltas_known_cmf_limit = []
         deltas_unknown_cmf_limit = []
@@ -102,58 +102,55 @@ def generate_delta_sequence(generation_data, cmf_deltas=True, pcf_deltas=False):
         deltas_unknown_pcf_limit = []
 
         try:
+            if pcf_deltas:
+                trajectory_mat_pcf = piCMF.trajectory_matrix(trajectory, start).as_pcf().pcf
+                if gen_data['pcf_known_limit']:
+                    deltas_known_pcf_limit = trajectory_mat_pcf.delta_sequence(gen_data['depth'], gen_data['pcf_known_limit'])
+                deltas_unknown_pcf_limit = trajectory_mat_pcf.delta_sequence(gen_data['depth'])
+        finally:
+            generation_data[i]['deltas_known_pcf_limit'] = deltas_known_pcf_limit
+            generation_data[i]['deltas_unknown_pcf_limit'] = deltas_unknown_pcf_limit
+
+        try:
             if cmf_deltas:
                 if gen_data['cmf_known_limit']:
                     deltas_known_cmf_limit = piCMF.delta_sequence(
-                        trajectory={x0: trajectory_vec[0], x1: trajectory_vec[1], y0: trajectory_vec[2]},
+                        trajectory=trajectory,
                         depth=gen_data['depth'],
                         start=start,
                         limit=gen_data['cmf_known_limit']
                     )
 
                 deltas_unknown_cmf_limit = piCMF.delta_sequence(
-                    trajectory={x0: trajectory_vec[0], x1: trajectory_vec[1], y0: trajectory_vec[2]},
+                    trajectory=trajectory,
                     depth=gen_data['depth'],
                     start=start
                 )
-
-            if pcf_deltas:
-                trajectory_mat_pcf = piCMF.trajectory_matrix().as_pcf().pcf
-                if gen_data['pcf_known_limit']:
-                    deltas_known_pcf_limit = trajectory_mat_pcf.delta_sequence(gen_data['depth'], gen_data['pcf_known_limit'])
-                deltas_unknown_pcf_limit = trajectory_mat_pcf.delta_sequence(gen_data['depth'])
-        except:
-            pass
         finally:
             generation_data[i]['deltas_known_cmf_limit'] = [float(delta) for delta in deltas_known_cmf_limit]
             generation_data[i]['deltas_unknown_cmf_limit'] = [float(delta) for delta in deltas_unknown_cmf_limit]
-            generation_data[i]['deltas_known_pcf_limit'] = deltas_known_pcf_limit
-            generation_data[i]['deltas_unknown_pcf_limit'] = deltas_unknown_pcf_limit
     return generation_data
 
 
 def generate_convergence(generation_data, cmf_conv=True, pcf_conv=False):
     for i, gen_data in tqdm(enumerate(generation_data), desc="calculating limits", total=len(generation_data)):
         start = create_start_vector(gen_data['start'])
-        trajectory_vec = gen_data['trajectory']
+        trajectory = {x0: gen_data['trajectory'][0], x1: gen_data['trajectory'][1], y0: gen_data['trajectory'][2]}
 
         cmf_limit = None
         pcf_limit = None
 
         try:
-            if cmf_conv:
-                cmf_limit = piCMF.limit(
-                    trajectory={x0: trajectory_vec[0], x1: trajectory_vec[1], y0: trajectory_vec[2]},
-                    iterations=gen_data['depth'],
-                    start=start
-                ).as_float()
             if pcf_conv:
-                pcf_limit = piCMF.trajectory_matrix().as_pcf().pcf.limit(gen_data['depth']).as_float()
-        except:
-            pass
+                pcf_limit = piCMF.trajectory_matrix(trajectory, start).as_pcf().pcf.limit(gen_data['depth']).as_float()
+        finally:
+            generation_data[i]['pcf_limit'] = pcf_limit
+
+        try:
+            if cmf_conv:
+                cmf_limit = piCMF.limit(trajectory, gen_data['depth'], start).as_float()
         finally:
             generation_data[i]['cmf_limit'] = cmf_limit
-            generation_data[i]['pcf_limit'] = pcf_limit
     return generation_data
 
 
